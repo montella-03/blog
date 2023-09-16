@@ -16,6 +16,9 @@ export default function MainLayout() {
           <nav>
             <NavLink to="/">Hello World</NavLink>
             <NavLink to="/about">About</NavLink>
+              <NavLink to={"/products"}></NavLink>
+              <NavLink to="/customers">Customers</NavLink>
+              <NavLink to="/orders">Orders</NavLink>
           </nav>
         </header>
       </div>
