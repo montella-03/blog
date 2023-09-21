@@ -3,7 +3,7 @@
   "license": "UNLICENSED",
   "type": "module",
   "dependencies": {
-    "@hilla/form": "2.2.0",
+    "@hilla/form": "^2.2.0",
     "@hilla/frontend": "2.2.0",
     "@hilla/generator-typescript-cli": "2.2.0",
     "@hilla/generator-typescript-core": "2.2.0",
@@ -22,6 +22,7 @@
     "classnames": "^2.3.2",
     "construct-style-sheets-polyfill": "3.1.0",
     "lit": "2.7.6",
+    "npm": "^10.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.4.2"
@@ -69,7 +70,8 @@
     "@hilla/form": "$@hilla/form",
     "@hilla/generator-typescript-plugin-backbone": "$@hilla/generator-typescript-plugin-backbone",
     "@hilla/generator-typescript-cli": "$@hilla/generator-typescript-cli",
-    "@hilla/react-form": "$@hilla/react-form"
+    "@hilla/react-form": "$@hilla/react-form",
+    "npm": "$npm"
   },
   "vaadin": {
     "dependencies": {
@@ -110,6 +112,6 @@
       "workbox-core": "7.0.0",
       "workbox-precaching": "7.0.0"
     },
-    "hash": "2a95f971ab36c5e79a2b54e6aab9fc3879eca30bb40c1dcb12d8d799a24367f8"
+    "hash": "fa39eab1d8f5e282cd45e63b358ed10814068cbb14856c0478b8b2f87509fbe5"
   }
 }

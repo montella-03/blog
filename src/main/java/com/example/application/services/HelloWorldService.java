@@ -5,7 +5,6 @@ import dev.hilla.BrowserCallable;
 import org.springframework.stereotype.Service;
 
 @BrowserCallable
-@AnonymousAllowed
 @Service
 public class HelloWorldService {
 
